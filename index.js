@@ -273,16 +273,16 @@ finger.on('swipe', function (e) {
   console.log(e);
   switch (e.direction) {
     case 'up':
-      moveUp();
+      keyUp();
       break;
     case 'down':
-      moveDown();
+      keyDown();
       break;
     case 'left':
-      moveLeft();
+      keyLeft();
       break;
     case 'right':
-      moveRight();
+      keyRight();
       break;
   }
 });
